@@ -1,0 +1,2 @@
+# Apuntes
+Conceptos_tensor_importantes
