@@ -1,0 +1,6 @@
+TensoFlow:es una biblioteca open source desarrollada por Google que nos permite realizar cálculos numéricos usando diagramas de flujo
+de datos.
+Nodos: representan operaciones matemáticas.
+Arcos: representan los arreglos de datos multidimensionales (tensores) comunicados entre ellos.
+Grafo: Cnjunto de objetos llamados vértices o nodos unidos por enlaces llamados aristas o arcos, 
+que permiten representar relaciones binarias entre elementos de un conjunto.
