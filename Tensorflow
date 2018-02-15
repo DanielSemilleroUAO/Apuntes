@@ -1,6 +1,27 @@
-TensoFlow:es una biblioteca open source desarrollada por Google que nos permite realizar cálculos numéricos usando diagramas de flujo
-de datos.
+TensoFlow:es una biblioteca open source desarrollada por Google que nos permite realizar cálculos numéricos usando 
+diagramas de flujo de datos.
 Nodos: representan operaciones matemáticas (ops).
 Arcos: representan los arreglos de datos multidimensionales (tensores) comunicados entre ellos.
 Grafo: Cnjunto de objetos llamados vértices o nodos unidos por enlaces llamados aristas o arcos, 
 que permiten representar relaciones binarias entre elementos de un conjunto.
+Conceptos a emular de los sistemas nerviosos:
+- Paralelismo de cálculo
+- Memoria distribuida
+- Adaptabilidad al entorno
+Los elementos que constituyen dicha neurona son:
+*Entradas(X(t)): Las variables de entrada y salida pueden ser binarias (digitales) o continuas (analógicas) dependiendo
+del modelo de aplicación.
+*Pesos sinápticos(W): Representan la intensidad de interacción entre cada neurona presináptica "j" y la neurona 
+postsináptica "i".
+*Regla de propagación: σ(w, x(t)). Proporciona el valor del potencial postsináptico, h(t), de la neurona i en función 
+de sus pesos y entradas. Ecuación: http://grupo.us.es/gtocoma/pid/pid10/RedesNeuronales.htm
+*Función de activación o de transferencia: f. Proporciona el estado de activación actual de la neurona i en función de su estado anterior
+y de su potencial postsináptico actual.
+Las conexiones entre las neuronas pueden ser excitatorias o inhibidoras, según el signo del peso sináptico asociado a la conexión. 
+Si dicho peso sináptico es negativo: conexión inhibitoria.
+Si por el contrario éste es positivo: conexión excitatoria. 
+Esta distinción no suele usarse demasiado, ya que el peso y su magnitud vendrán determinados en cada instante por el 
+algoritmo de entrenamiento.
+Las conexiones pueden clasificarse también en conexiones intracapa  y conexiones intercapa. 
+Conexiones intracapa: corresponden con las conexiones entre las neuronas de una misma capa.
+COnexiones intercapa: corresponde a las conexiones entre neuronas de distintas capas.
